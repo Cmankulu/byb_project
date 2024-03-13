@@ -1,6 +1,6 @@
 from datetime import datetime
 
-
+print ("hello user")
 def is_valid_date(date_str):
     try:
         datetime.strptime(date_str, '%Y-%m-%d')
